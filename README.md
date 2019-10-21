@@ -9,6 +9,12 @@ Specification:
 - Filter bookmarks by tag
 - Users are restricted to manage only their own bookmarks
 
+SQL instructions:
+. Connect to psql
+. Create the database using the psql command CREATE DATABASE bookmark_manager;
+. Connect to the database using the pqsl command \c bookmark_manager;
+. Run the query we have saved in the file 01_create_bookmarks_table.sql
+
 Toby and Adams Fun User Stories:
 
   "So that Policeman Bob can see his bookmarks
