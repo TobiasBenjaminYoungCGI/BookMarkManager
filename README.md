@@ -11,8 +11,14 @@ Specification:
 
 SQL instructions:
 . Connect to psql
-. Create the database using the psql command CREATE DATABASE bookmark_manager;
-. Connect to the database using the pqsl command \c bookmark_manager;
+. Create the database using the psql command CREATE DATABASE BookMarks;
+. Connect to the database using the pqsl command \c BookMarks;
+. Run the query we have saved in the file 01_create_bookmarks_table.sql
+
+SQL instructions for test database:
+. Connect to psql
+. Create the database using the psql command CREATE DATABASE bookmarks_manager_test;
+. Connect to the database using the pqsl command \c bookmark_manager_test;
 . Run the query we have saved in the file 01_create_bookmarks_table.sql
 
 Toby and Adams Fun User Stories:
